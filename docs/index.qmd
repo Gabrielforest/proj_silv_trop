@@ -88,7 +88,7 @@ leaflet( ) %>%
 
   addProviderTiles( providers$OpenStreetMap, group = "OSM" ) %>% 
   
-  addLegend( position = "bottomleft", opacity = 1, 
+  addLegend( position = "topright", opacity = 1, 
              title = "Propriedade rural", colors = c( "red", "yellow" ) ,
              labels = c( "Área total do Proprietário", "Área destinada à produção" ) )
 
