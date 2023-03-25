@@ -33,7 +33,7 @@ library( sp )
 
 </center>
 
-## Quem somos
+# Quem somos
 
 \  Nosso trabalho começou no dia 4 de maio de 2021 (dia internacional da galinha), produzindo informações para instituições com interesse em conhecer e entender as florestas e tomar decisões com base em evidências.
 A produção de informação foi a semente do nosso trabalho. Ao longo dos anos, fomos nos aprimorando e expandindo nossa área de atuação, sempre usando ciência e inovação na nossa forma de produzir.
@@ -41,19 +41,21 @@ Escolhemos 2023 como nosso ano de renovação, nos abrindo para novos desafios s
 Agora, todo a aprendizado acumulado ao longo dos últimos anos se transformou na nossa nova forma de atuar e desenvolver soluções.
 Somos um time multidisciplinar de pessoas com muita vontade de causar um impacto social positivo no país. Acreditamos que nossa força vem das diferenças. 
 
+# Informações do projeto
+
 ## Introdução
 
 \  A região Sul do Brasil é uma área de grande importância para a biodiversidade, uma vez que abriga biomas extremamente relevantes e ameaçados, como a Mata Atlântica e o Pampa. Diversas instituições têm se dedicado a projetos de conservação desses ecossistemas, com o objetivo de minimizar os impactos ambientais e preservar a biodiversidade.
 
-\  Considerando que grande parte dos remanescentes florestais está em mãos privadas na região Sul, é fundamental a adoção de medidas para a restauração de áreas degradadas com espécies vegetais nativas. Essa estratégia pode contribuir para aumentar a conectividade da paisagem, favorecendo a manutenção dos processos ecológicos e a proteção de espécies a longo prazo. Além disso, a reserva legal produtiva é uma forma de assegurar a preservação dessas áreas e garantir que possam ser utilizadas para a restauração e recuperação de áreas degradadas, contribuindo para a ampliação da representatividade desses importantes biomas brasileiros na região Sul.
+\  Considerando que grande parte dos remanescentes florestais está em mãos privadas na região Sul, é fundamental a adoção de medidas para a restauração de áreas degradadas com espécies vegetais nativas. Essa estratégia pode contribuir para aumentar a conectividade da paisagem, favorecendo a manutenção dos processos ecológicos e a proteção de espécies a longo prazo. Além disso, a reserva legal produtiva é uma forma de assegurar a preservação dessas áreas e garantir que possam ser utilizadas de forma econômica e sustentável, contribuindo dessa forma, para a ampliação da representatividade desses importantes biomas brasileiros na região Sul.
 
-## Descrição do projeto
+## Descrição 
 
 \  Esta página foi desenvolvida como meio de divulgação do projeto de reserva legal produtiva de uma área de Mata Ombrófila Mista, na cidade de Irati - PR. Sendo o presente estudo proposto com base nas demandas referentes ao edital de 2023 da fundação de apoio a pesquisa SOCIEDADE NIPO-BRASILEIRA para o Programa de Desenvolvimento Silvicultura Tropical de Uso Sustentável Multiuso.
 
-\  Desse modo, o projeto foi elaborado em colaboração entre os engenheiros da empresa Restaura+: Bruno Gonçalves, Gabriel F. Pereira, Rafael Adão, José Ricardo, Leonardo Kobayashi, Gustavo Takahara; com o objetivo de produzir produtos a partir da Araucária, feijão, milho e erva-mate. Sendo que o presente site visa divulgar informações sobre esses produtos que serão gerados na reserva legal produtiva proposta.
+\  Desse modo, o projeto foi elaborado em colaboração entre os engenheiros da empresa Restaura+: Bruno Gonçalves, Gabriel F. Pereira, Rafael Adão, José Ricardo, Leonardo Kobayashi e Gustavo Takahara; com o objetivo de produzir produtos a partir da araucária, feijão, milho, bracatinga e erva-mate. Sendo que o presente site visa divulgar informações sobre esses produtos que serão gerados na reserva legal produtiva proposta.
 
-\  Abaixo é possível visualizar de forma interativa a área em que será implantado o plantio assim como a área total do proprietário. **Observação: selecione as camadas no canto superior direito da imagem**
+\  Abaixo é possível visualizar de forma interativa a área em que será implantado o plantio, o pomar de sementes, assim como a área total do proprietário. **Observação: selecione as camadas no canto superior direito da imagem:**
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 
@@ -86,14 +88,58 @@ leaflet( ) %>%
 
   addProviderTiles( providers$OpenStreetMap, group = "OSM" ) %>% 
   
-  addMiniMap( tiles = providers$Esri.WorldImagery,toggleDisplay = TRUE ) %>% 
-  
   addLegend( position = "bottomleft", opacity = 1, 
              title = "Propriedade rural", colors = c( "red", "yellow" ) ,
              labels = c( "Área total do Proprietário", "Área destinada à produção" ) )
 
 ```
 
-## Produtos
+## Espécies e produtos
+
+::: {layout-nrow=5}
+
+![*Zea mays* (Milho)](milho.jpg)
+
+![Milho verde](milho_produto.webp)
+
+
+![*Phaseolus vulgaris* (Feijão)](feijao.jpg)
+
+![Feijão](feijao_produto.webp)
+
+
+
+![*Ilex paraguariensis* (Erva-mate)](erva-mate.webp)
+
+![Chimarrão](chimarrao.jpg)
+
+
+![*Mimosa scabrella* (Bracatinga)](bracatinga.jpg)
+
+![Mel](mel.jpg)
+
+
+![*Araucaria angustifolia* (Araucária)](araucaria.jpg)
+
+![Pinhão](pinhao.webp)
+
+
+
+:::
+
+
+## Como você pode participar?
+
+\ Há diferentes formas de participação dentro desse projeto, as quais estão listadas a seguir:
+
+- investir no nosso projeto em prol do crescimento do comércio local de forma sustentável;
+
+- doação de mudas/sementes (antes do estabelecimento do projeto);
+
+- coleta do pinhão (coletores locais); 
+
+**Observação: 15% do nosso lucro será destinado à comunidade que contribuir na coleta.**
+
+\ Se você não se enquadra nos pontos listados acima, mas mesmo assim deseja contribuir, entre em contato conosco! Estamos abertos a sugestões e novas ideias. Além disso, existe a possibilidade de surgir novos projetos com espécies remanescentes provenientes dos fragmentos nas proximidades da propriedade.
 
 </div>
