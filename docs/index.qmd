@@ -100,28 +100,28 @@ leaflet( ) %>%
 
 ![*Zea mays* (Milho)](milho.jpg)
 
-![Milho verde](milho_produto.webp)
+![Milho verde (ano 0 ao ano 3)](milho_produto.webp)
 
 
 ![*Phaseolus vulgaris* (Feijão)](feijao.jpg)
 
-![Feijão](feijao_produto.webp)
+![Feijão (ano 0 ao ano 5)](feijao_produto.webp)
 
 
 
 ![*Ilex paraguariensis* (Erva-mate)](erva-mate.webp)
 
-![Chimarrão](chimarrao.jpg)
+![Erva-mate (ano 5 até o fim da reserva)](chimarrao.jpg)
 
 
 ![*Mimosa scabrella* (Bracatinga)](bracatinga.jpg)
 
-![Mel](mel.jpg)
+![Mel (ano 11 até o fim da reserva)](mel.jpg)
 
 
 ![*Araucaria angustifolia* (Araucária)](araucaria.jpg)
 
-![Pinhão](pinhao.webp)
+![Pinhão (ano 6 até o fim da reserva)](pinhao.webp)
 
 
 
