@@ -138,7 +138,7 @@ leaflet( ) %>%
 
 - coleta do pinhão (coletores locais); 
 
-**Observação: 15% do nosso lucro será destinado à comunidade que contribuir na coleta.**
+**Observação: parte do nosso orçamento será destinado à comunidade que contribuir na coleta.**
 
 \ Se você não se enquadra nos pontos listados acima, mas mesmo assim deseja contribuir, entre em contato conosco! Estamos abertos a sugestões e novas ideias. Além disso, existe a possibilidade de surgir novos projetos com espécies remanescentes provenientes dos fragmentos nas proximidades da propriedade.
 
