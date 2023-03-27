@@ -63,6 +63,8 @@ shp <- readOGR( "Area_do_Imovel.shp", verbose = FALSE )
 
 shp1 <- readOGR( "area_de_interesse.shp", verbose = FALSE )
 
+shp2 <- readOGR( "APS.shp", verbose = FALSE )
+
 leaflet( ) %>%
   
   addProviderTiles( providers$Esri.WorldImagery ) %>%
@@ -77,10 +79,16 @@ leaflet( ) %>%
                color = "yellow", 
                weight = 1,
                opacity = 1,
-               group = "Área destinada à produção" ) %>% 
+               group = "Reserva Legal Produtiva" ) %>% 
+  
+  addPolygons( data = shp2,
+               color = "white", 
+               weight = 1,
+               opacity = 1,
+               group = "Área de Produção de Sementes" ) %>% 
 
   addLayersControl( baseGroups = c( "Satellite", "OSM" ), 
-                    overlayGroups = c( "Área total do Proprietário", "Área destinada à produção" ),
+                    overlayGroups = c( "Área total do Proprietário", "Reserva Legal Produtiva", "Área de Produção de Sementes" ),
                     position = "topright", 
                     options = layersControlOptions( collapsed = TRUE ) ) %>% 
   
@@ -89,8 +97,8 @@ leaflet( ) %>%
   addProviderTiles( providers$OpenStreetMap, group = "OSM" ) %>% 
   
   addLegend( position = "topright", opacity = 1, 
-             title = "Propriedade rural", colors = c( "red", "yellow" ) ,
-             labels = c( "Área total do Proprietário", "Área destinada à produção" ) )
+             title = "Propriedade rural", colors = c( "red", "yellow", "white" ) ,
+             labels = c( "Área total do Proprietário", "Reserva Legal Produtiva", "Área de Produção de Sementes" ) )
 
 ```
 
