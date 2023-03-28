@@ -116,7 +116,6 @@ leaflet( ) %>%
 ![Feijão (ano 0 ao ano 5)](feijao_produto.webp)
 
 
-
 ![*Ilex paraguariensis* (Erva-mate)](erva-mate.webp)
 
 ![Erva-mate (ano 5 até o fim da reserva)](chimarrao.jpg)
@@ -131,9 +130,21 @@ leaflet( ) %>%
 
 ![Pinhão (ano 6 até o fim da reserva)](pinhao.webp)
 
-
-
 :::
+
+
+## Projeção da área ao longo dos anos
+
+
+\  A imagem abaixo é uma ilustração de um hectare da área no quinto ano do plantio, com o consórcio entre Milho, Araucária e Erva-mate. Importante notar que o Feijão alternará ao longo dos 4 primeiros anos com o Milho.
+
+![](araucaria_erva_milho.jpeg)
+
+\  De forma semelhante, a seguir temos a área a partir do sexto ano, com Araucária, Erva-mate e Bracatinga substituindo as culturas agrícolas.  
+
+![](araucaria_erva_bracatinga.jpeg)
+
+\  Além disso, ao longo dos anos nós esperamos que espécies remanescentes provenientes das áreas de mata nativa existentes na propriedade ao redor da área de Reserva Legal Produtiva, comecem a surgir na área realizando o enriquecimento natural a partir dos variados tipos de dispersores (principalmente através da avifauna). Existindo dessa forma, a possibilidade de surgir novos projetos para o proprietário a partir dessas espécies. 
 
 
 ## Como você pode participar?
@@ -148,6 +159,6 @@ leaflet( ) %>%
 
 **Observação: parte do nosso orçamento será destinado à comunidade que contribuir na coleta.**
 
-\ Se você não se enquadra nos pontos listados acima, mas mesmo assim deseja contribuir, entre em contato conosco! Estamos abertos a sugestões e novas ideias. Além disso, existe a possibilidade de surgir novos projetos com espécies remanescentes provenientes dos fragmentos nas proximidades da propriedade.
+\ Se você não se enquadra nos pontos listados acima, mas mesmo assim deseja contribuir, entre em contato conosco! Estamos abertos a sugestões e novas ideias. 
 
 </div>
