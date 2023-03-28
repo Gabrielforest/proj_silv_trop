@@ -104,7 +104,7 @@ leaflet( ) %>%
 
 ## Espécies e produtos
 
-::: {layout-nrow=5}
+::: {layout-nrow=4}
 
 ![*Zea mays* (Milho)](milho.jpg)
 
@@ -120,18 +120,21 @@ leaflet( ) %>%
 
 ![Erva-mate (ano 5 até o fim da reserva)](chimarrao.jpg)
 
-
-![*Mimosa scabrella* (Bracatinga)](bracatinga.jpg)
-
-![Mel (ano 11 até o fim da reserva)](mel.jpg)
-
-
 ![*Araucaria angustifolia* (Araucária)](araucaria.jpg)
 
 ![Pinhão (ano 6 até o fim da reserva)](pinhao.webp)
 
 :::
 
+::: {layout-ncol=3}
+
+![*Mimosa scabrella* (Bracatinga)](bracatinga.jpg)
+
+![Mel (ano 11 até o fim da reserva)](mel.jpg)
+
+![Madeira (fim do ciclo)](lenha.jpg)
+
+:::
 
 ## Projeção da área ao longo dos anos
 
