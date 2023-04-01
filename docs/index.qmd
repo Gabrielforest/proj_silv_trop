@@ -136,6 +136,8 @@ leaflet( ) %>%
 
 :::
 
+*As imagens acima são provenientes do Google e não possuem autoria identificada. Se você é o autor de alguma imagem, por favor entre em contato.*
+
 ## Projeção da área ao longo dos anos
 
 
