@@ -113,7 +113,7 @@ leaflet( ) %>%
 
 ![*Phaseolus vulgaris* (Feijão)](feijao.jpg)
 
-![Feijão (ano 0 ao ano 5)](feijao_produto.webp)
+![Feijão (ano 0 ao ano 4)](feijao_produto.webp)
 
 
 ![*Ilex paraguariensis* (Erva-mate)](erva-mate.webp)
