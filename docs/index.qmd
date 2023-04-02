@@ -141,7 +141,7 @@ leaflet( ) %>%
 ## Projeção da área ao longo dos anos
 
 
-\  A imagem abaixo é uma ilustração de um hectare da área no quinto ano do plantio, com o consórcio entre Milho, Araucária e Erva-mate. Importante notar que o Feijão alternará ao longo dos 4 primeiros anos com o Milho.
+\  A imagem abaixo é uma ilustração de 400m² da área no quinto ano do plantio, com o consórcio entre Milho, Araucária e Erva-mate. Importante notar que o Feijão alternará ao longo dos 4 primeiros anos com o Milho.
 
 ![](araucaria_erva_milho.jpeg)
 
